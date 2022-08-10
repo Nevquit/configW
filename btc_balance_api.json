@@ -1,0 +1,14 @@
+{
+	"BTC": {
+		"blockchain.info": "https://blockchain.info/q/addressbalance/{}?confirmations=6",
+		"chain.so": "https://chain.so/api/v2/get_address_balance/btc/{}"
+	},
+	"LTC": {
+		"chain.so": "https://chain.so/api/v2/get_address_balance/LTC/{}",
+		"api.blockcypher": "https://api.blockcypher.com/v1/ltc/main/addrs/{}/balance"
+	},
+	"DOGE": {
+		"chain.so": "https://chain.so/api/v2/get_address_balance/DOGE/{}",
+		"api.blockcypher": "https://api.blockcypher.com/v1/doge/main/addrs/{}/balance"
+	}
+}
