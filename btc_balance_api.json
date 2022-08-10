@@ -1,6 +1,6 @@
 {
 	"BTC": {
-		"blockchain.info": "https://blockchain.info/q/addressbalance/{}?confirmations=6",
+		"api.blockcypher": "https://api.blockcypher.com/v1/btc/main/addrs/{}/balance",
 		"chain.so": "https://chain.so/api/v2/get_address_balance/btc/{}"
 	},
 	"LTC": {
