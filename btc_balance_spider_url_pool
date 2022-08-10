@@ -1,0 +1,14 @@
+{
+	"BTC": {
+		"https://www.blockchain.com/btc/address/": "/html/body/div[1]/div[3]/div[2]/div/div/div[2]/div/div[1]/div[2]/div/div[6]/div[2]/span",
+		"https://explorer.btc.com/btc/address/": "/html/body/div[2]/div[1]/div[3]/div[3]/div[1]/div/div[2]/div[2]/span"
+	},
+	"LTC": {
+		"https://litecoinblockexplorer.net/address/": "/html/body/main/div/div[1]/div/div/div/div/div[4]/p[2]",
+		"https://explorer.btc.com/ltc/address/": "/html/body/div[2]/div[1]/div[3]/div[3]/div[1]/div/div[1]/div[2]/span"
+	},
+	"DOGE": {
+		"https://dogeblocks.com/address/": "/html/body/main/div/div[1]/div/div/div/div/div[4]/p[2]",
+		"https://explorer.doge.zelcore.io/address/": "/html/body/div[2]/div/div[1]/div[1]/div[1]/div[2]/div/div[1]/div[4]/div[2]/span"
+	}
+}
