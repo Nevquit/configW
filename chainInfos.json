@@ -1,13 +1,13 @@
 {
 	"main": {
 		"1073741826": {
-			"chainName": "arbitrum",
-			"chainType": "areth",
+			"chainName": "Arbitrum",
+			"chainType": "ARETH",
 			"evm": true,
 			"crossScAddr": "0xf7ba155556e2cd4dfe3fe26e506a14d2f4b97613"
 		},
 		"2147484262": {
-			"chainName": "optimism",
+			"chainName": "Optimism",
 			"chainType": "OETH",
 			"evm": true,
 			"crossScAddr": ""
@@ -105,20 +105,20 @@
 	},
 	"test": {
 		"1073741826": {
-			"chainName": "arbitrum",
-			"chainType": "areth",
+			"chainName": "Arbitrum",
+			"chainType": "ARETH",
 			"evm": true,
 			"crossScAddr": "0xbf0deb5cd8e072018632e9646b4fe998d4047a86"
 		},
 		"2147483843": {
-			"chainName": "tron",
-			"chainType": "trx",
+			"chainName": "Tron",
+			"chainType": "TRX",
 			"evm": true,
 			"crossScAddr": "41f1b7f2e5aaccce1e39ad9baa8ff6aa828a01ce19"
 		},
 		"2147484262": {
-			"chainName": "optimism",
-			"chainType": "oeth",
+			"chainName": "Optimism",
+			"chainType": "OETH",
 			"evm": true,
 			"crossScAddr": "0x0467bf248bddb10e4465214e9baf404ff8e93332"
 		},
@@ -142,7 +142,7 @@
 		},
 		"2147484362": {
 			"chainName": "BSC",
-			"chainType": "BSC",
+			"chainType": "BNB",
 			"evm": true,
 			"crossScAddr": "0xb12513cfcb13b7be59ba431c040b7206b0a211b9"
 		},
@@ -166,7 +166,7 @@
 		},
 		"1073741825": {
 			"chainName": "moonbase",
-			"chainType": "movr",
+			"chainType": "MOVR",
 			"evm": true,
 			"crossScAddr": "0x9274be9167c7dba7f81b61d3870e0272cb8474f6"
 		},
