@@ -32,7 +32,7 @@
 		},
 		"2147484362": {
 			"chainName": "BSC",
-			"chainType": "BSC",
+			"chainType": "BNB",
 			"evm": true,
 			"crossScAddr": "0xc3711bdbe7e3063bf6c22e7fed42f782ac82baee"
 		},
