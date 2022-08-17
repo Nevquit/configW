@@ -82,10 +82,5 @@
 	"CLV": {
 		"test": "https://api-para.clover.finance",
 		"main": "https://api-para.clover.finance"
-	},
-	"testinggggg": {
-		"main": "wss://s1.ripple.com/",
-		"refmain": "wss://xrplcluster.com/",
-		"test": "wss://nodes-testnet.wandevs.org/xrp"
 	}
 }
