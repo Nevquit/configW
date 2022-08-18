@@ -1,1 +1,169 @@
-{"XRP": {"main": ["wss://s1.ripple.com/", "wss://nodes.wandevs.org/xrp:443", "wss://s2.ripple.com/", "wss://xrplcluster.com/"], "test": ["wss://nodes-testnet.wandevs.org/xrp"]}, "ETH": {"main": ["https://nodes.wandevs.org/eth", "https://eth-mainnet.public.blastapi.io", "https://main-rpc.linkpool.io", "https://rpc.ankr.com/eth"], "test": ["https://nodes-testnet.wandevs.org/eth"]}, "BTC": {"main": ["http://nodes.wandevs.org:26893"], "test": ["http://nodes-testnet.wandevs.org:36893"]}, "LTC": {"main": ["http://nodes.wandevs.org:26894"], "test": ["http://nodes-testnet.wandevs.org:36894"]}, "WAN": {"main": ["https://gwan-ssl.wandevs.org:56891"], "test": ["https://nodes-testnet.wandevs.org/wan"]}, "DOT": {"test": ["wss://nodes-testnet.wandevs.org/polkadot"], "main": ["wss://nodes.wandevs.org/polkadot", "wss://rpc.polkadot.io", "wss://polkadot.api.onfinality.io/public-ws"]}, "BNB": {"test": ["https://data-seed-prebsc-1-s1.binance.org:8545"], "main": ["https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bscapi.terminet.io/rpc", "https://rpc.ankr.com/bsc"]}, "MOVR": {"test": ["https://rpc.testnet.moonbeam.network"], "main": ["https://rpc.moonriver.moonbeam.network", "https://moonriver.public.blastapi.io", "https://moonriver.api.onfinality.io/public"]}, "AVAX": {"test": ["https://api.avax-test.network/ext/bc/C/rpc"], "main": ["https://api.avax.network/ext/bc/C/rpc", "https://rpc.ankr.com/avalanche", "https://avalancheapi.terminet.io/ext/bc/C/rpc"]}, "MATIC": {"test": ["https://matic-mumbai.chainstacklabs.com"], "main": ["https://rpc-mainnet.matic.network", "https://polygonapi.terminet.io/rpc", "https://rpc-mainnet.matic.quiknode.pro"]}, "ARETH": {"test": ["https://rinkeby.arbitrum.io/rpc"], "main": ["https://arb1.arbitrum.io/rpc", "https://rpc.ankr.com/arbitrum"]}, "DOGE": {"test": ["http://35.84.106.212:36895"], "main": ["http://44.239.180.2:26895"]}, "FTM": {"test": ["https://rpc.testnet.fantom.network"], "main": ["https://rpc.ftm.tools/"]}, "OETH": {"test": ["https://kovan.optimism.io"], "main": ["https://mainnet.optimism.io", "https://optimism-mainnet.public.blastapi.io"]}, "XDC": {"test": ["https://rpc.apothem.network"], "main": ["https://rpc.xinfin.network", "https://erpc.xinfin.network", "https://rpc1.xinfin.network"]}, "GLMR": {"test": ["https://rpc.testnet.moonbeam.network"], "main": ["https://rpc.api.moonbeam.network", "https://moonbeam.public.blastapi.io", "https://rpc.ankr.com/moonbeam"]}, "OKT": {"test": ["https://exchaintestrpc.okex.org"], "main": ["https://exchainrpc.okex.org"]}, "CLV": {"test": ["https://api-para.clover.finance"], "main": ["https://api-para.clover.finance"]}, "testinggggg": {"main": ["wss://s1.ripple.com/"], "test": ["wss://nodes-testnet.wandevs.org/xrp"]}}
+{
+	"XRP": {
+		"main": [
+			"wss://s1.ripple.com/",
+			"wss://nodes.wandevs.org/xrp:443",
+			"wss://s2.ripple.com/",
+			"wss://xrplcluster.com/"
+		],
+		"test": [
+			"wss://nodes-testnet.wandevs.org/xrp"
+		]
+	},
+	"ETH": {
+		"main": [
+			"https://nodes.wandevs.org/eth",
+			"https://eth-mainnet.public.blastapi.io",
+			"https://main-rpc.linkpool.io",
+			"https://rpc.ankr.com/eth"
+		],
+		"test": [
+			"https://nodes-testnet.wandevs.org/eth"
+		]
+	},
+	"BTC": {
+		"main": [
+			"http://nodes.wandevs.org:26893"
+		],
+		"test": [
+			"http://nodes-testnet.wandevs.org:36893"
+		]
+	},
+	"LTC": {
+		"main": [
+			"http://nodes.wandevs.org:26894"
+		],
+		"test": [
+			"http://nodes-testnet.wandevs.org:36894"
+		]
+	},
+	"WAN": {
+		"main": [
+			"https://gwan-ssl.wandevs.org:56891"
+		],
+		"test": [
+			"https://nodes-testnet.wandevs.org/wan"
+		]
+	},
+	"DOT": {
+		"test": [
+			"wss://nodes-testnet.wandevs.org/polkadot"
+		],
+		"main": [
+			"wss://nodes.wandevs.org/polkadot",
+			"wss://rpc.polkadot.io",
+			"wss://polkadot.api.onfinality.io/public-ws"
+		]
+	},
+	"BNB": {
+		"test": [
+			"https://data-seed-prebsc-1-s1.binance.org:8545"
+		],
+		"main": [
+			"https://bsc-dataseed1.ninicoin.io",
+			"https://bsc-dataseed2.ninicoin.io",
+			"https://bscapi.terminet.io/rpc",
+			"https://rpc.ankr.com/bsc"
+		]
+	},
+	"MOVR": {
+		"test": [
+			"https://rpc.testnet.moonbeam.network"
+		],
+		"main": [
+			"https://rpc.moonriver.moonbeam.network",
+			"https://moonriver.public.blastapi.io",
+			"https://moonriver.api.onfinality.io/public"
+		]
+	},
+	"AVAX": {
+		"test": [
+			"https://api.avax-test.network/ext/bc/C/rpc"
+		],
+		"main": [
+			"https://api.avax.network/ext/bc/C/rpc",
+			"https://rpc.ankr.com/avalanche",
+			"https://avalancheapi.terminet.io/ext/bc/C/rpc"
+		]
+	},
+	"MATIC": {
+		"test": [
+			"https://matic-mumbai.chainstacklabs.com"
+		],
+		"main": [
+			"https://rpc-mainnet.matic.network",
+			"https://polygonapi.terminet.io/rpc",
+			"https://rpc-mainnet.matic.quiknode.pro"
+		]
+	},
+	"ARETH": {
+		"test": [
+			"https://rinkeby.arbitrum.io/rpc"
+		],
+		"main": [
+			"https://arb1.arbitrum.io/rpc",
+			"https://rpc.ankr.com/arbitrum"
+		]
+	},
+	"DOGE": {
+		"test": [
+			"http://35.84.106.212:36895"
+		],
+		"main": [
+			"http://44.239.180.2:26895"
+		]
+	},
+	"FTM": {
+		"test": [
+			"https://rpc.testnet.fantom.network"
+		],
+		"main": [
+			"https://rpc.ftm.tools/"
+		]
+	},
+	"OETH": {
+		"test": [
+			"https://kovan.optimism.io"
+		],
+		"main": [
+			"https://mainnet.optimism.io",
+			"https://optimism-mainnet.public.blastapi.io"
+		]
+	},
+	"XDC": {
+		"test": [
+			"https://rpc.apothem.network"
+		],
+		"main": [
+			"https://rpc.xinfin.network",
+			"https://erpc.xinfin.network",
+			"https://rpc1.xinfin.network"
+		]
+	},
+	"GLMR": {
+		"test": [
+			"https://rpc.testnet.moonbeam.network"
+		],
+		"main": [
+			"https://rpc.api.moonbeam.network",
+			"https://moonbeam.public.blastapi.io",
+			"https://rpc.ankr.com/moonbeam"
+		]
+	},
+	"OKT": {
+		"test": [
+			"https://exchaintestrpc.okex.org"
+		],
+		"main": [
+			"https://exchainrpc.okex.org"
+		]
+	},
+	"CLV": {
+		"test": [
+			"https://api-para.clover.finance"
+		],
+		"main": [
+			"https://api-para.clover.finance"
+		]
+	}
+}
